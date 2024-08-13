@@ -1,0 +1,19 @@
+inicio
+
+    real: n1, n2, n3, n4; // notas bimestrais
+    real: Ma; // media anual
+
+
+    leia(n1,n2,n3,4);
+
+    Ma <-- (n1 + n2 + n3 + n4) /4;
+
+    escreva(Ma);
+
+    se (media >= 7)
+        então
+            escreva ("Aluno aprovado!");
+    fimse
+
+
+fim
